@@ -30,7 +30,8 @@
         "aliyuncs/oss-sdk-php": "^2.3",
         "phpmailer/phpmailer": "^6.1",
         "qiniu/php-sdk": "^7.2",
-        "codeitnowin/barcode": "^3.0"
+        "codeitnowin/barcode": "^3.0",
+        "zangyd/dbfaker": "*"
     },
     "autoload": {
         "psr-4": {
@@ -48,5 +49,6 @@
             "type": "composer",
             "url": "https://packagist.phpcomposer.com"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
